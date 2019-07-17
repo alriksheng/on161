@@ -1,5 +1,4 @@
 # on161
 161汇聚hive结果
 
--- 1、社会场景XDR 天级　on 161 记得将结果表拖回183
---结果表：DIM_XDR_SCENE_GD_DAY
+--2、汇聚所需数据迁移(161XDR/画框功能所需数据：TDLTE_MRO_NICE_GRID50_MTH_GEO)（在183执行）
