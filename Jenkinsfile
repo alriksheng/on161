@@ -8,7 +8,7 @@ pipeline {
     //string(defaultValue: 'checkResult_temp.sql', description: 'SQL_FILE_TEMP2', name: 'SQL_FILE_TEMP2')
     string(defaultValue: 'C:/Users/user/PycharmProjects/pygame/plsql', description: 'FILE_PATH_PY', name: 'FILE_PATH_PY')
     string(defaultValue: 'D:/pyoracle', description: 'FILE_PATH_SQL', name: 'FILE_PATH_SQL')
-    string(defaultValue: '20190724', description: 'DATA_d1', name: 'DATA_d1')
+    string(defaultValue: '20190725', description: 'DATA_d1', name: 'DATA_d1')
     string(defaultValue: '20190701', description: 'DATA_mth', name: 'DATA_mth')
     string(defaultValue: '10.161.97.183:1521/orcl', description: 'DATABASENAME_183', name: 'DATABASENAME_183')
     string(defaultValue: 'C##FAST183', description: 'USERNAME_183', name: 'USERNAME_183')
