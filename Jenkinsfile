@@ -40,15 +40,15 @@ pipeline {
 
         }
                 // execute
-        //sh "python ${params.FILE_PATH_PY}/${params.PYTHON_FILE} ${params.FILE_PATH_SQL}/${params.SQL_FILE} ${params.USERNAME_161} ${params.DATABASENAME_161}" //本地
+        sh "python ${params.FILE_PATH_PY}/${params.PYTHON_FILE} ${params.FILE_PATH_SQL}/${params.SQL_FILE} ${params.USERNAME_161} ${params.DATABASENAME_161}" //本地
       }
     } 
     stage("2nd schema check") {
       steps {
         script{
           // to int
-          def data_d1_int = params.DATA_d1 as Integer
-          mth_end_int = data_d1_int + 29
+          def data_mth_int = params.DATA_mth as Integer
+          mth_end_int = data_mth_int + 29
           // to string
           mth_end_str = mth_end_int as String
           // powershell
@@ -56,7 +56,7 @@ pipeline {
 
         }
         // execute
-        //sh "python ${params.FILE_PATH_PY}/${params.PYTHON_FILE2} ${params.FILE_PATH_SQL}/${params.SQL_FILE2} ${params.USERNAME_161} ${params.DATABASENAME_161}" //本地
+        sh "python ${params.FILE_PATH_PY}/${params.PYTHON_FILE2} ${params.FILE_PATH_SQL}/${params.SQL_FILE2} ${params.USERNAME_161} ${params.DATABASENAME_161}" //本地
       }
     }
   }
