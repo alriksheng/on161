@@ -4,7 +4,7 @@ pipeline {
     string(defaultValue: 'checkResult.py', description: 'PYTHON_FILE2', name: 'PYTHON_FILE2')
     string(defaultValue: 'on161_gaodexdrmth.sql', description: 'SQL_FILE', name: 'SQL_FILE')
     string(defaultValue: 'on161_gaodexdrmth_temp.sql', description: 'SQL_FILE_TEMP', name: 'SQL_FILE_TEMP')
-    string(defaultValue: 'check_161gaodexdrday.sql', description: 'SQL_FILE2', name: 'SQL_FILE2')
+    string(defaultValue: 'check_161gaodexdrmth.sql', description: 'SQL_FILE2', name: 'SQL_FILE2')
     //string(defaultValue: 'checkResult_temp.sql', description: 'SQL_FILE_TEMP2', name: 'SQL_FILE_TEMP2')
     string(defaultValue: 'C:/Users/user/PycharmProjects/pygame/plsql', description: 'FILE_PATH_PY', name: 'FILE_PATH_PY')
     string(defaultValue: 'D:/pyoracle', description: 'FILE_PATH_SQL', name: 'FILE_PATH_SQL')
